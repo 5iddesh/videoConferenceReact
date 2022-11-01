@@ -1,0 +1,898 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+}
+
+header{
+    background-image: url("assets/Frame\ 18bgWithCircle.png");
+    color: white;
+    padding-inline: 5%;
+    text-align: center;
+    height: 800px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 2%;
+    padding-right: 5%;
+    align-items: center;
+    margin-top: -20px;
+}
+.hamburger-menu{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+.logo{
+    margin-top: 20px;
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-around;
+    gap: 15%;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+}
+.login button{
+    width: 101px;
+    height: 52px;
+    padding: 10px 24px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 100px;
+    font-size: 20px;
+    background: none;
+    line-height: 32px;
+
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+}
+
+.intro h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+    width: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 5%;
+}
+.intro p{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+
+    color: #E0E0E0;
+    width: 50%;
+    margin: auto;
+}
+.intro .buttons{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: baseline;
+    margin: 3% auto;
+}
+.get-started{
+    background: #0E9AFF;
+    border-radius: 100px;
+    width: 188px;
+    height: 58px;
+    padding: 18px 37px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.play-demo{
+    width: 159px;
+    height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.play-demo img{
+    margin-bottom: -9px;
+    margin-right: 10px;
+}
+
+.intro-image{
+    position: relative;
+    margin-top: -50px;
+}
+.bg-skyblue{
+    width: 78%;
+    transform: scaleY(0.8);
+}
+.intro-image .screen{
+    width: 72%;
+    position: absolute;
+    top: 38px;
+    left: 14%;
+    transform: scaleY(0.8);
+}
+
+.clients{
+    margin-top: 0%;
+}
+.clients p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #0E9AFF;
+    margin-bottom: 5%;
+}
+.clients img{
+    max-width: -webkit-fill-available;
+}
+
+.SF-heading{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 820px;
+    margin-inline: 13%;
+    align-items: baseline;
+}
+.SF-heading h3{
+    width: 40%;
+    font-weight: 600;
+font-size: 42px;
+line-height: 56px;
+/* or 133% */
+
+letter-spacing: 0.011em;
+
+/* Oxford Blue 100 */
+
+color: #00103F;
+text-align: left;
+}
+.SF-heading p{
+    width: 30%;
+    font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: -0.01em;
+
+/* pragraph text */
+
+color: #435072;
+}
+
+.flexbox{
+    display: flex;
+    gap: 3%;
+    margin-inline: 13%;
+    margin-top: 50px;
+}
+.flexbox div{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    /* height: 250px; */
+    padding: 0 3%;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid #D8E0EF;
+border-radius: 8px;
+}
+.flexbox img{
+    width: 50px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.flexbox h4{
+    font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.011em;
+color: #00103F;
+margin-top: 20px;
+margin-bottom: 15px;
+}
+.flexbox p{
+    font-size: 18px;
+line-height: 28px;
+text-align: center;
+letter-spacing: -0.01em;
+color: #435072;
+}
+.flexbox .active{
+    color: white;
+    background: #0E9AFF;
+}
+.flexbox .active h4{
+    color: white;
+}
+.flexbox .active p{
+    color: white;
+}
+
+.cards{
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.card1{
+    display: flex;
+    gap: 13%;
+    margin-inline: 12%;
+}
+
+.card1 .image{
+    position: relative;
+    width: 60%;
+}
+.card-image1-1{
+    width: 100%;
+}
+.card-image1-2{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.card-image1-3{
+    position: absolute;
+    bottom: -60px;
+    right: -112px;
+}
+
+.cards .info{
+    width: 40%;
+    margin-top: 5%;
+}
+.info h3{
+    font-weight: 600;
+font-size: 42px;
+line-height: 56px;
+letter-spacing: 0.011em;
+color: #00103F;
+}
+.info p{
+    font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.01em;
+margin-top: 5%;
+
+font-weight: 300;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+letter-spacing: -0.01em;
+
+/* pragraph text */
+
+color: #435072;
+}
+.cards li{
+    list-style-type: none;
+    font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+margin-top: 5%;
+letter-spacing: 0.011em;
+color: #00103F;
+
+}
+.cards li img .active li{
+    background: #E7F5FF!important;
+    border-radius: 8px;
+}
+
+
+.card2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 13%;
+    margin-inline: 12%;
+    margin-top: 100px;
+}
+
+.card2 .image{
+    width: 60%;
+    position: relative;
+}
+.card-image2-1{
+    width: 100%;
+}
+.card-image2-2{
+    width: 100%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.card-image2-3{
+    position: absolute;
+    bottom: -60px;
+    left: -172px;
+}
+.card2 button{
+    background: #0E9AFF;
+border-radius: 100px;
+width: 191px;
+height: 52px;
+border: none;
+margin-top: 50px;
+color: white;
+display: flex;
+padding-inline: 20px;
+align-items: center;
+justify-content: space-around;
+}
+
+.purchase{
+    margin-top: 80px;
+}
+.purchase .info{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+.purchase .info h3{
+    width: 50%;
+    margin: auto;
+    font-weight: 600;
+font-size: 42px;
+line-height: 56px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: 0.011em;
+
+/* Oxford Blue 100 */
+
+color: #00103F;
+}
+.purchase .info p{
+    margin: auto;
+
+    width: 70%;
+    font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+letter-spacing: 0.011em;
+
+/* pragraph text */
+
+color: #435072;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+.purchase .info .active{
+    font-weight: bold;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-inline: 11%;
+    margin-top: 5%;
+    gap: 5%;
+}
+.options > div{
+    border: 2px solid #D8E0EF;
+border-radius: 24px;
+    padding-inline: 5%;
+    height: 659px;
+/* width: 360px; */
+border-radius: 24px;
+}
+
+
+.options .active{
+    background: #0E9AFF;
+    color: white;
+}
+.options .active .price h4{
+    color: white;
+}
+.options .active .price p{
+    color: white;
+}
+.options .active .price h2{
+    color: white;
+}
+.options .active button{
+    border: none;
+}
+
+.price{
+    border-bottom: 3px solid #D8E0EF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.price h4{
+    font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+text-align: center;
+letter-spacing: 0.011em;
+
+/* Oxford Blue 100 */
+
+color: #00103F;
+margin-top: 18%;
+margin-left: 15px;
+}
+.price p{
+    font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.011em;
+
+/* pragraph text */
+
+color: #435072;
+margin-top: 10px;
+}
+.price h2{
+    font-size: 44px;
+line-height: 56px;
+/* identical to box height, or 127% */
+
+text-align: center;
+letter-spacing: 0.011em;
+
+/* Oxford Blue 100 */
+
+color: #00103F;
+margin: 15% 15px;
+    /* margin-top: 20%; */
+}
+.functionalities{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+list-style-type: none;
+margin-top: 15%;
+}
+.functionalities img{
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+.functionalities b{
+    margin-right: 6px;
+}
+.functionalities button{
+
+    height: 54px;
+    width: 230px;
+    
+
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px 24px;
+gap: 10px;
+isolation: isolate;
+    border: 2px solid #435072;
+border-radius: 100px;
+margin-top: 25%;
+cursor: pointer;
+}
+
+.FAQ{
+    margin-top: 7%;
+    margin-inline: 25%;
+    text-align: center;
+}
+.FAQ h2{
+    font-size: 42px;
+line-height: 56px;
+/* identical to box height, or 133% */
+
+
+/* Oxford Blue 100 */
+
+color: #00103F;
+}
+.FAQ .questions{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+margin-top: 50px;
+}
+.FAQ .question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+/* height: 62px; */
+padding: 10px 20px;
+border: 1.5px solid #D8E0EF;
+/* dddddd */
+
+filter: drop-shadow(0px 4px 20px rgba(20, 19, 19, 0.08));
+border-radius: 8px;
+cursor: pointer;
+}
+.question div{
+    font-size: 18px;
+line-height: 30px;
+text-align: left;
+/* identical to box height, or 167% */
+
+
+/* pragraph text */
+
+color: #435072;
+}
+
+.questions .active{
+    background: #0E9AFF;
+border-radius: 0px 8px 8px 8px;
+color: white;
+}
+.questions .active div{
+    color: white;
+}
+.questions .active img{
+    align-self: flex-start;
+    margin-top: 15px;
+}
+.questions .active p{
+font-size: 15px;
+margin-right: 7%;
+margin-left: 10px;
+margin-top: 10px;
+line-height: 28px;
+color: #FFFFFF;
+}
+
+.email{
+    background: rgba(223, 241, 254, 1);
+    margin: 5% 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    min-height: 200px;
+    text-align: center;
+    border-radius: 16px;
+}
+.email h2{
+    font-weight: 500;
+font-size: 42px;
+line-height: 56px;
+/* identical to box height, or 133% */
+
+
+color: #000000;
+}
+.email p{
+    font-size: 15px;
+line-height: 30px;
+/* or 167% */
+
+text-align: center;
+
+color: #191919;
+margin: auto;
+padding-inline: 10%;
+margin-top: 3%;
+width: 60%;
+
+}
+.email div{
+    display: flex;
+    background: #FFFFFF;
+border-radius: 100px;
+width: 35%;
+margin: auto;
+margin-top: 3%;
+height: 50px;
+justify-content: space-between;
+align-items: center;
+padding-inline: 5%;
+}
+.email input{
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+.email button{
+    border: none;
+    background: #0E9AFF;
+border-radius: 100px;
+width: 36%;
+    height: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.footer{
+    background: #00103F;
+    display: flex;
+    justify-content: flex-start;
+    gap: 8%;
+    padding-left: 13%;
+    padding-top: 3%;
+    padding-bottom: 50px;
+    margin-top: 5%;
+    text-align: left;
+}
+.footer > div{
+    display: flex;
+    flex-direction: column;
+}
+.footer h2{
+    font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.footer a{
+    text-decoration: none;
+    font-weight: 300;
+font-size: 14px;
+line-height: 30px;
+/* identical to box height, or 167% */
+
+
+/* offwhite 100 */
+
+color: #D1D1D1;
+}
+.footer .social-media{
+    margin-top: 10px;
+    display: flex;
+    gap: 10%;
+}
+.social-media img{
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+    header{
+        height: 700px;
+    }
+    .intro h1{
+        font-size: 45px;
+        width: 75%;
+    }
+    .intro p{
+        width: 65%;
+    }
+  
+    .SF-heading{
+        margin-top: 55%;
+    }
+    .card1{
+        flex-direction: column;
+        padding-right: 5%;
+    }
+    .card-image1-3{
+        width: 50%;
+    }
+    .cards .image{
+        width: 100%;
+    }
+    .cards .info{
+        width: 100%;
+    }
+    .card2{
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .purchase .info h3{
+        width: unset;
+    }
+    .purchase .info p{
+        width: unset;
+    }
+    .options{
+        margin-inline: unset;
+    }
+    .FAQ{
+        margin-inline: unset;
+    }
+    .question{
+        width: 70vw!important;
+        margin: auto;
+    }
+    .flexbox{
+        flex-wrap: wrap;
+    }
+    .flexbox > div{
+        max-width: 30vw;
+        margin-top: 50px;
+    }
+    .SF-heading p {
+        width: 40%;
+    }
+    .SF-heading h3 {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .App{
+        overflow: hidden;
+    }
+    .hamburger-menu{
+        display: block;
+    }
+    .nav-menu, .login{
+        display: none;
+    }
+    .intro h1{
+        line-height: 55px;
+        font-size: 30px;
+        width: 85%;
+    }
+    .intro p{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .get-started{
+        padding: 0;
+    }
+    .intro-image{
+        margin-top: 50px;
+    }
+    .clients{
+        margin-top: 10%;
+    }
+
+    .SF-heading{
+        margin-top: 330px;
+        flex-direction: column;
+    }
+    .SF-heading h3,.SF-heading p{
+        width: unset;
+        margin-bottom: 20px;
+        text-align: center!important;
+    }
+
+    .flexbox{
+        margin-top: 0;
+    }
+    .flexbox>div{
+        max-width: unset;
+        padding-bottom: 20px;
+    }
+
+    .cards .info{
+        text-align: left;
+    }
+    .purchase .info{
+        width: 75%;
+    }
+    .purchase .info h3{
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .options> div{
+        height: unset;
+        margin-bottom: 30px;
+    }
+    .options h4{
+        margin-top: 10%;
+    }
+    .options h2{
+        margin: 5% 15px;
+    }
+    .functionalities button{
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 200px;
+        align-self: center;
+    }
+    .FAQ h2 {
+        font-size: 27px;
+    }
+    .email{
+        margin: 0;
+        margin-top: 9%;
+        padding-bottom: 60px;
+    }
+    .email h2 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .email p{
+        width: unset;
+        line-height: 25px;
+    }
+    .email .input{
+        width: 60%;
+        flex-direction: column;
+        gap: 28px;
+    }
+    .email input{
+        padding-top: 15px;
+    }
+    .email button{
+        width: 50%;
+        padding: 7px;
+    }
+    .card1 .image{
+        margin-left: -20px;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+    .card2 .image{
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: -20px;
+    }
+    .card-image1-3{
+        /* width: 40%; */
+        bottom: -35px;
+        right: -59px;
+    }
+    .card-image2-3{
+        left: -76px;
+        bottom: -35px;
+        width: 50%;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .footer a{
+        display: none;
+    }
+    .social-media{
+        text-align: center;
+    }
+}
