@@ -762,7 +762,7 @@ color: #D1D1D1;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 660px) {
     .App{
         overflow: hidden;
     }
