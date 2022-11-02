@@ -26,6 +26,7 @@ export default function Nav() {
       navMenu.style.display = "none";
       login.style.display = "none";
     }
+   
   }
 
   return (

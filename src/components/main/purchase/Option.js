@@ -23,8 +23,8 @@ export default function Option({data}) {
         <div className="functionalities">
             {functionalities.map((element, index) => {
                 return <li key={index}>
-                <img src={element.img1} alt="check" />
-                <img src={element.img2} alt="check" />
+                <img src={element.img1} alt="check" className='blue'/>
+                <img src={element.img2} alt="check" className='white'/>
                 <b>{element.b}</b><span>{element.span}</span>
             </li>
             })}

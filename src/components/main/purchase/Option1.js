@@ -28,7 +28,7 @@ export default function Option1() {
                 span: "Participants"
             }
         ],
-        isActive: `option`
+        isActive: `option`,
     }
   return (
 
