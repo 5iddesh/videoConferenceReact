@@ -1,3 +1,6 @@
+html{scroll-behavior:smooth}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -791,11 +794,26 @@ color: #D1D1D1;
     .App{
         overflow: hidden;
     }
+    .mobile-view{
+        display: flex;
+    }
     .hamburger-menu{
         display: block;
     }
     .nav-menu, .login{
         display: none;
+       
+    }
+    .login{
+        width: 5px;
+    }
+    .login button{
+        border: none;
+        padding: 0;
+        position: relative;
+        top: 63px;
+        left: -32.5vw;
+        font-size: 17px;
     }
     .nav-menu{
         flex-direction: column;
