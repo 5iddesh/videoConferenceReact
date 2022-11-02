@@ -4,6 +4,7 @@ import Option2 from './Option2'
 import Option3 from './Option3'
 
 export default function Options() {
+
   return (
     <div className="options">
       <Option1 />

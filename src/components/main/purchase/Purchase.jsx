@@ -4,7 +4,7 @@ import Options from './Options'
 
 export default function Purchase() {
   return (
-    <section className="purchase">
+    <section className="purchase" id='pricing'>
       <Info />
       <Options />
     </section>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Option3() {
   return (
-    <div>
+    <div className='option'>
                     <div className="price">
                         <h4>Business</h4>
                         <p>For professional purposes</p>

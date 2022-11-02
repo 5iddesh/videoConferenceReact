@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Option2() {
   return (
-    <div className="active">
+    <div className="active option">
     <div className="price">
         <h4>Pro</h4>
         <p>For small team needs</p>

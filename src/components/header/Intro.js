@@ -10,10 +10,10 @@ export default function Intro() {
                         Get Started
     
                     </button>
-                    <button className="play-demo">
+                    <a href='#' className="play-demo">
                         <img src="assets/Frame 276playButton.png" alt="play-logo" />
                         Play Demo
-                    </button>
+                    </a>
                 </div>
             </div>
   )

@@ -5,12 +5,37 @@
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+    color: unset;
+}
 header{
     background-image: url("assets/Frame\ 18bgWithCircle.png");
     color: white;
     padding-inline: 5%;
     text-align: center;
     height: 800px;
+}
+.mobile-view{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.011em;
+
+    color: #FFFFFF;
+}
+.mobile-view button{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
 }
 .nav{
     display: flex;
@@ -771,6 +796,14 @@ color: #D1D1D1;
     }
     .nav-menu, .login{
         display: none;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin-top: 20px;
+        gap: 10px;
+    }
+    .parent-nav-menu{
+        flex-direction: column;
     }
     .intro h1{
         line-height: 55px;
