@@ -59,6 +59,7 @@ header{
 }
 .logo{
     margin-top: 20px;
+    z-index: 10;
 }
 .nav-menu{
     display: flex;
@@ -72,11 +73,12 @@ header{
     letter-spacing: 0.011em;
 
     color: #FFFFFF;
-    transition: opacity 1s;
+    /* transition: opacity 1s; */
 
 }
 .nav-menu span{
     cursor: pointer;
+    z-index: 10;
 }
 .login{
     transition: opacity 1s;
@@ -823,11 +825,23 @@ color: #D1D1D1;
     }
     .hamburger-menu{
         display: block;
+        z-index: 10;
     }
     .nav-menu, .login{
         /* display: none; */
+        
+        position: absolute;
+        background: white;
+        color: black;
+        margin-left: -7%;
+        padding-left: 15vw;
+        padding-right: 60vw;
+        padding-top: 164px;
+        padding-bottom: 42px;
+        text-align: left;
+        width: 30vw;
+
         opacity: 0;
-       
     }
     .login{
         width: 5px;
@@ -839,6 +853,13 @@ color: #D1D1D1;
         top: 63px;
         left: -32.5vw;
         font-size: 17px;
+
+        position: relative;
+    color: black;
+    z-index: 10;
+    /* right: 50px; */
+    left: -5vw;
+    top: 63px;
     }
     .nav-menu{
         flex-direction: column;
