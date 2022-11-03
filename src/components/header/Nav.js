@@ -4,18 +4,23 @@ export default function Nav() {
   const pricing = useRef()
   const Resources = useRef()
  
-
-  function temp(e) {
-    const navMenu = document.querySelector(".nav-menu");
-    const login = document.querySelector(".login");
-
-    if(navMenu.style.height == "0"){
-      navMenu.style.height = "auto";
-      login.style.height = "auto";
-    }else{
-      navMenu.style.height = "0";
-      login.style.height = "0";
-    }
+  const scrollToPricing = (e) => {
+    let pricing = document.getElementById("pricing")
+    let x = pricing.getBoundingClientRect().x
+    let y = pricing.getBoundingClientRect().y
+    window.scrollTo(x, y-50)
+  }
+  const scrollToDeviceSolutions = (e) => {
+    let pricing = document.getElementById("deviceSolutions")
+    let x = pricing.getBoundingClientRect().x
+    let y = pricing.getBoundingClientRect().y
+    window.scrollTo(x, y-50)
+  }
+  const scrollToResources = (e) => {
+    let pricing = document.getElementById("pricing")
+    let x = pricing.getBoundingClientRect().x
+    let y = pricing.getBoundingClientRect().y
+    window.scrollTo(x, y-50)
   }
 
   const handleClick = (e) => {
@@ -32,10 +37,6 @@ export default function Nav() {
    
   }
 
-  function handleNavigation(e) {
-    window.history.pop()
-  }
-
   return (
     <nav className="nav">
         <div className="logo">
@@ -43,11 +44,11 @@ export default function Nav() {
         </div>
         
         <div className="nav-menu">
-            <a href='#pricing' onClick={handleNavigation}>Pricing</a>
+            <span onClick={scrollToPricing}>Pricing</span>
          
-            <a href='#deviceSolutions'>deviceSolutions</a>
+            <span onClick={scrollToDeviceSolutions}>deviceSolutions</span>
 
-            <a href='resources'>Resources</a>
+            <span onClick={scrollToResources} id="scroller">Resources</span>
         </div>
         <div className="login">
             <button>signIn</button>

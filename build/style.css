@@ -1,7 +1,4 @@
-html{
-    scroll-behavior:smooth;
-    overflow: scroll;
-}
+html{scroll-behavior:smooth}
 
 
 *{
@@ -71,9 +68,6 @@ header{
     letter-spacing: 0.011em;
 
     color: #FFFFFF;
-}
-.nav-menu span{
-    cursor: pointer;
 }
 .login button{
     width: 101px;

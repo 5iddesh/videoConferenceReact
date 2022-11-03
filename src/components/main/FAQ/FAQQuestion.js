@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function FAQQuestion(props) {
-  console.log(props)
   return (
     props.questions.map((question, index) => {
         return (
