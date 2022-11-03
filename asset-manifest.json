@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/videoConferenceReact/static/css/main.fc5c2c69.css",
+    "main.js": "/videoConferenceReact/static/js/main.ebda4f4c.js",
+    "index.html": "/videoConferenceReact/index.html",
+    "main.fc5c2c69.css.map": "/videoConferenceReact/static/css/main.fc5c2c69.css.map",
+    "main.ebda4f4c.js.map": "/videoConferenceReact/static/js/main.ebda4f4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5c2c69.css",
+    "static/js/main.ebda4f4c.js"
+  ]
+}
