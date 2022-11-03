@@ -6,13 +6,18 @@ export default function FAQ() {
 
     const questions = [
         {
-            question: {
-                div: "kdsf",
-                p: "lksdjflkdafs",
-                img: "assets/plus.png",
-                imgMinus: "assets//Vectorminus.png"
-            }
+            div: "6. kdsf",
+            p: "lksdjflkdafs",
+            img: "assets/plus.png",
+            imgMinus: "assets//Vectorminus.png"
+        },
+        {
+            div: "7. kdsf",
+            p: "lksdjflkdafs",
+            img: "assets/plus.png",
+            imgMinus: "assets//Vectorminus.png"
         }
+       
     ]
 
     const handleClick = (e) => {

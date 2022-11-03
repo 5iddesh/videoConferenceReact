@@ -3,18 +3,21 @@ import React, { useEffect, useRef, useState } from 'react'
 export default function Nav() {
   const pricing = useRef()
   const Resources = useRef()
-
-  // const handleClick = (e) => {
-  //   const navMenu = document.querySelector(".mobile-view");
-
-  //   if(navMenu.style.display !== "flex"){
-  //     navMenu.style.display = "flex";
-  //   }else{
-  //     navMenu.style.display = "none";
-  //   }
-  // }
-
  
+
+  function temp(e) {
+    const navMenu = document.querySelector(".nav-menu");
+    const login = document.querySelector(".login");
+
+    if(navMenu.style.height == "0"){
+      navMenu.style.height = "auto";
+      login.style.height = "auto";
+    }else{
+      navMenu.style.height = "0";
+      login.style.height = "0";
+    }
+  }
+
   const handleClick = (e) => {
     const navMenu = document.querySelector(".nav-menu");
     const login = document.querySelector(".login");
@@ -29,6 +32,10 @@ export default function Nav() {
    
   }
 
+  function handleNavigation(e) {
+    window.history.pop()
+  }
+
   return (
     <nav className="nav">
         <div className="logo">
@@ -36,7 +43,7 @@ export default function Nav() {
         </div>
         
         <div className="nav-menu">
-            <a href='#pricing'>Pricing</a>
+            <a href='#pricing' onClick={handleNavigation}>Pricing</a>
          
             <a href='#deviceSolutions'>deviceSolutions</a>
 
